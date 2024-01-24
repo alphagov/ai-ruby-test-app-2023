@@ -14,6 +14,8 @@ ActiveRecord::Base.establish_connection(
   host: ENV["DB_HOST"],
   port: ENV["DB_PORT"],
   database: ENV["DB_NAME"],
+  username: ENV["DB_USERNAME"],
+  password: ENV["DB_PASSWORD"],
 )
 
 open_ai_api = OpenAiApi.new
