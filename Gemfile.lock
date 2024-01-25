@@ -28,6 +28,8 @@ GEM
     neighbor (0.3.0)
       activerecord (>= 6.1)
     nio4r (2.5.9)
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
@@ -53,6 +55,7 @@ GEM
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-darwin-22
   x86_64-linux
 
