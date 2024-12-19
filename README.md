@@ -1,5 +1,7 @@
 # AI for Ruby Devs
 
+**Archived** Experimentation project from the AI team in 2023.
+
 ## Getting started
 
 ```shell
@@ -52,3 +54,7 @@ ruby build_db.rb
 ```shell
 ruby app.rb
 ```
+
+## Licence
+
+[MIT License](LICENCE)
